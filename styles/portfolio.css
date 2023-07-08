@@ -24,6 +24,20 @@ nav {
   padding: 15px 35px;
 }
 
+.section-title{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description{
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
 .nav-title {
   color: #181818;
 
@@ -49,14 +63,47 @@ nav a {
 }
 
 /* header related styles */
-.header{
+.header {
   background-color: #fff8f2;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-  padding: 30px  30px  30px 150px;
+
+.banner {
+  padding: 30px 30px 0 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.profile-pic{
+
+.profile-pic {
   width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+/* main section styles */
+
+/* about section styles */
+
+.about {
+  padding: 130px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
